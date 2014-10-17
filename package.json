@@ -1,6 +1,6 @@
 {
   "name": "mediatorjs",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Simple mediator written in JS",
   "main": "index.js",
   "scripts": {
