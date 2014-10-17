@@ -2,11 +2,10 @@
   "name": "mediatorjs",
   "version": "0.1.0",
   "description": "Simple mediator written in JS",
-  "main": "index.js",
+  "main": "dist/mediator.js",
   "scripts": {
     "test": "mocha ./*.spec.coffee",
-    "prepublish": "coffee -c mediator.coffee",
-    "publish": "rm mediator.js"
+    "prepublish": "rm -rf dist && coffee -o dist -c mediator.coffee && r.js -convert dist dist/amd"
   },
   "repository": {
     "type": "git",
