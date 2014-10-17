@@ -4,7 +4,9 @@
   "description": "Simple mediator written in JS",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./*.spec.coffee"
+    "test": "mocha ./*.spec.coffee",
+    "prepublish": "coffee -c mediator.coffee",
+    "publish": "rm mediator.js"
   },
   "repository": {
     "type": "git",
