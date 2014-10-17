@@ -1,7 +1,7 @@
 {
   "name": "mediatorjs",
   "version": "0.1.0",
-  "description": "Simple mediator written in JS",
+  "description": "Mediator pattern for the web and node",
   "main": "dist/mediator.js",
   "scripts": {
     "test": "mocha ./*.spec.coffee",
