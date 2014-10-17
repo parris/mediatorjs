@@ -4,7 +4,7 @@
   "description": "Simple mediator written in JS",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha ./*.spec.coffee"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/parris/mediatorjs/issues"
   },
-  "homepage": "https://github.com/parris/mediatorjs"
+  "homepage": "https://github.com/parris/mediatorjs",
+  "dependencies": {
+    "backbone-events-standalone": "~0.2.4"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.8.0",
+    "should": "~4.0.4"
+  }
 }
