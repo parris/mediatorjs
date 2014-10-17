@@ -1,0 +1,23 @@
+{
+  "name": "mediatorjs",
+  "version": "0.0.0",
+  "description": "Simple mediator written in JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parris/mediatorjs"
+  },
+  "keywords": [
+    "mediator",
+    "pattern"
+  ],
+  "author": "Parris Khachi",
+  "license": "Apache2",
+  "bugs": {
+    "url": "https://github.com/parris/mediatorjs/issues"
+  },
+  "homepage": "https://github.com/parris/mediatorjs"
+}
