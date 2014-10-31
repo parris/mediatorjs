@@ -5,7 +5,7 @@
   "main": "dist/mediator.js",
   "scripts": {
     "test": "mocha ./*.spec.coffee",
-    "prepublish": "rm -rf dist && coffee -o dist -c mediator.coffee && r.js -convert dist dist/amd"
+    "prepublish": "sh ./prepublish.sh"
   },
   "repository": {
     "type": "git",
